@@ -5,16 +5,6 @@
 //10/8/2015
 //********************
 
-/**
-	@file college.h
-	@brief This is the header that handles the contents of the array
-	@author Jonathan Feige (documentation)
-*/
-
-@file college.cc
-	@brief This is the implimentation that handles the contents of the array
-	@author Jonathan Feige (documentation)
-
 #include <iostream>
 #include <fstream>
 #include <string>

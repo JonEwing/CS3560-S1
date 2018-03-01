@@ -3,12 +3,6 @@
 	course.
 		John Dolan		School of EECS		Summer2013
 **************************************************************************/
-
-/**
-    @file course.cc
-    @brief This is the implimentation that handles the contents of the array
-    @author Jonathan Feige (documentation)
-*/
 #include "course.h"
 #include<cstdlib>
 #include<iostream>
@@ -58,11 +52,7 @@ void course::output(std::ostream& outs)const{
       }
 }
 
-/**
-  @brief This function takes a character and transforms it into a GPA 
-  represented by a double. 
-  @return double
-*/
+
 double course::get_number_grade()const{
     if(grade == "A") return 4.0;
     if(grade == "A-") return 3.667;
@@ -79,12 +69,6 @@ double course::get_number_grade()const{
     else return 0;
 }
 
-/**
-  @brief This function takes a string froma  cource number, 
-  a grade recieved and a double being how long, in credit 
-  hours it was. it then applys it to a college object in an array.
-  @return void
-*/
 void course::set_course(std::string num, std::string grad, double hrs){
 	course_number = num;
 	grade = grad;

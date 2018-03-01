@@ -7,12 +7,6 @@
 		John Dolan	School of EECS		Summer 2013
 ************************************************************************/
 
-/**
-	@file course.h
-	@brief This is the header that handles the the array
-	@author Jonathan Feige (documentation)
-*/
-
 #include<iostream>
 #include<string>
 #ifndef COURSE_H

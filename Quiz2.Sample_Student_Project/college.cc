@@ -4,12 +4,6 @@
 //CS 2401
 //10/8/2015
 //********************
-
-/**
-	@file college.cc
-	@brief This is the implimentation that handles the contents of the array
-	@author Jonathan Feige (documentation)
-*/
 #include "college.h"
 #include<cstdlib>
 #include<iostream>

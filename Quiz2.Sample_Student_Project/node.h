@@ -5,12 +5,6 @@
                 John Dolan  		March 2009
 *************************************************************************/
 
-/**
-	@file node.h
-	@brief This is the header that handles the contents of a node
-	@author Jonathan Feige (documentation)
-*/
-
 #ifndef NODE_H
 #define NODE_H
 #include "course.h"

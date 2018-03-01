@@ -12,12 +12,6 @@
 	John Dolan			Spring 2015
 **********************************************************/
 
-/**
-	@file collegemain.cc
-	@brief This is the main for the college program
-	@author Jonathan Feige (documentation)
-*/
-
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -27,14 +21,7 @@
 
 using namespace std;
 
-/**
-  @brief This function displays the menu and returns the user's choice,
-  it conatins an integer, choice that lets you select from the menue. Course
-  which lets you fill in a desired course. An in and out file stream for loading
-  and saving data. A string for your course name and a string for your file name
-  as well.
-  @return NULL
-*/
+// This function displays the menu and returns the user's choice
 int menu();
 
 int main(){

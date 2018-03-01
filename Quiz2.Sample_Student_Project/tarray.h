@@ -8,12 +8,6 @@
 	John Dolan			Ohio University 
 ********************************************************************/
 
-/**
-	@file tarray.h
-	@brief This is a file tha tprovides a template array
-	@author Jonathan Feige (documentation)
-*/
-
 #include<iostream>
 
 template<class T>
